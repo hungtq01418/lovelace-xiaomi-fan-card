@@ -1,0 +1,24 @@
+# lovelace-xiaomi-fan-card
+## This works for:
+- `speed` - set speed (1, 2, 3, 4)
+- `mode` - set mode (Standard and Natural)
+- `swing angle` - set swing angle (30, 60, 90, 120)
+- `toggle oscillate` - set oscillates the fan
+![xiaomi-vacuum-card](https://raw.githubusercontent.com/benct/lovelace-xiaomi-fan-card/example.PNG)
+## Setup
+1. Add [xiaomi-fan-card.js](https://github.com/hungtq01418/lovelace-xiaomi-fan-card/blob/master/custom-fan-card.js) to your `<config>/www/custom_ui` folder. If a folder does not exist, create it.
+2. Configure Lovelace to load the card:
+```yaml
+resources:
+  - url: /local/custom_ui/custom-fan-card.js
+    type: module
+```
+3. Restart Home Assistant.
+4. Refresh the front end.
+5. Add this in your Lovelace configuration.
+```yaml
+  title: Switch
+  entity: fan.xiaomi_smart_fan
+  type: 'custom:custom-fan-card'
+  name: Xiaomi Smart Fan
+```
