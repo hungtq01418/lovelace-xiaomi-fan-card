@@ -1,4 +1,7 @@
 # lovelace-xiaomi-fan-card
+## Component
+https://github.com/syssi/xiaomi_fan
+
 ## This works for
 - `speed` - set speed (1, 2, 3, 4)
 - `mode` - set mode (Standard and Natural)
