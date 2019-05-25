@@ -10,6 +10,11 @@
 ## Setup
 1. Add [xiaomi-fan-card.js](https://github.com/hungtq01418/lovelace-xiaomi-fan-card/blob/master/custom-fan-card.js) to your `<config>/www/custom_ui` folder. If a folder does not exist, create it.
 2. Configure Lovelace to load the card:
+![xiaomi-vacuum-card](https://github.com/hungtq01418/lovelace-xiaomi-fan-card/blob/master/step1.PNG)
+![xiaomi-vacuum-card](https://github.com/hungtq01418/lovelace-xiaomi-fan-card/blob/master/step2.PNG)
+![xiaomi-vacuum-card](https://github.com/hungtq01418/lovelace-xiaomi-fan-card/blob/master/step3.PNG)
+![xiaomi-vacuum-card](https://github.com/hungtq01418/lovelace-xiaomi-fan-card/blob/master/step4.PNG)
+![xiaomi-vacuum-card](https://github.com/hungtq01418/lovelace-xiaomi-fan-card/blob/master/step5.PNG)
 ```yaml
 resources:
   - url: /local/custom_ui/custom-fan-card.js
