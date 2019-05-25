@@ -4,7 +4,9 @@
 - `mode` - set mode (Standard and Natural)
 - `swing angle` - set swing angle (30, 60, 90, 120)
 - `toggle oscillate` - set oscillates the fan
+
 ![xiaomi-vacuum-card](https://github.com/hungtq01418/lovelace-xiaomi-fan-card/blob/master/example.PNG)
+
 ## Setup
 1. Add [xiaomi-fan-card.js](https://github.com/hungtq01418/lovelace-xiaomi-fan-card/blob/master/custom-fan-card.js) to your `<config>/www/custom_ui` folder. If a folder does not exist, create it.
 2. Configure Lovelace to load the card:
