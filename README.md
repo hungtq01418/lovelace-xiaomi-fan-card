@@ -1,5 +1,5 @@
 # lovelace-xiaomi-fan-card
-## This works for:
+## This works for
 - `speed` - set speed (1, 2, 3, 4)
 - `mode` - set mode (Standard and Natural)
 - `swing angle` - set swing angle (30, 60, 90, 120)
